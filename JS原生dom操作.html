@@ -150,6 +150,7 @@ function getElementsByClassName(node, classname) {
  */
 function getNextElement(node) {
     var sibNode = node.nextSibling;
+		
     if (sibNode.nodeType == 1) {
         return node;
     }
@@ -166,7 +167,7 @@ function getElementLeft(element) {
     var current = element.offsetParent;
     while (current !== null) {
         actualLeft += current.offsetLeft;
-        current = current.offsetParent;
+        current = current.offsetParent;g
     }
     return actualLeft;
 }
