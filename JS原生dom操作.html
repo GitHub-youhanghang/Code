@@ -30,7 +30,7 @@
 </head>
 <body>
 <div style="width:1000px;margin:0 auto;padding-top:100px;">
-<h2>JS原生DOM</h2>	
+<h2>JS原生DOM</h2>
 <pre class="brush: js;">
 function addLoadEvent(func) {
     var oldonload = window.onload;
@@ -115,7 +115,7 @@ function getClassName(ParentId, NewClassName) {
 /**
  * 获取指定类名的元素对象集合
  * @param {Object} node 父节点
- * @param {String} classname 指定类名 
+ * @param {String} classname 指定类名
  * @return {[Object]}目标对象集合
  */
 function getElementsByClassName(node, classname) {
@@ -160,7 +160,7 @@ function getNextElement(node) {
     return null;
 }
 
-//获得偏移量 有点问题没搞明白，先别用
+//获得偏移量 有点问题没搞明白，先别用這個
 function getElementLeft(element) {
     var actualLeft = element.offsetLeft;
     var current = element.offsetParent;
